@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.css';
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.logo{
+  height: 10vmin;
+  width: 50%;
+  margin: 20px 0 20px 25%;
+  pointer-events: none;
+  background-color: #ccc;
+  animation: App-logo-spin infinite 20s linear;
 }

@@ -1,0 +1,43 @@
+.page {
+    .ant-table-cell {
+        text-align: center !important;
+    }
+    &.notice {
+        background-color: #fff;
+        margin-top: 12px;
+        padding: 24px;
+    }
+    &.order {
+        background-color: #fff;
+        margin-top: 12px;
+        padding: 24px;
+    }
+}
+.box-above-table {
+    background-color: #fff;
+    text-align: right;
+    padding: 12px 24px;
+    margin: 4px 0;
+}
+.ant-advanced-search-form {
+    background-color: #fff;
+    padding: 24px;
+    margin: 12px 0;
+}
+.ant-table-content {
+    .close {
+        color: rgba(0, 0, 0, 0.35);
+        .dot {
+            color: rgba(0, 0, 0, 0.35);
+        }
+    }
+    .dot {
+        display: block;
+        height: 20px;
+        color: #1890ff;
+        font-size: 80px;
+        line-height: 0;
+        &.gray {
+        }
+    }
+}
